@@ -1,0 +1,49 @@
+
+
+  header{
+      background-color: rgb(82, 58, 50);
+      background-image:url(/Bilder/coffee-beans.webp);
+      background-size: cover;
+      background-blend-mode:overlay;
+      padding: 40px;
+  }
+  header p{
+      color:white;
+  }
+  .nav-link:hover{
+      background-color: rgb(82, 58, 50);
+  }
+
+/* Varför funkar inte detta? */
+  .nav-link:active{
+    background-color: rgb(187, 235, 220);
+    color:black;
+}
+ 
+  .card{
+      padding: 2px;
+      border-width: 2px;
+  }
+ .card-footer{
+     background-color: rgb(33, 37, 41);
+     
+ }
+ .card-button{
+     background-color: rgb(187, 235, 220);
+     padding: 8px;
+     color: black;
+ }
+ .card-button:hover{
+    background-color: rgb(62, 99, 87);
+    color: white;
+}
+.card p{
+    padding-bottom: 5px;
+}
+#kaffeparty-card{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+p{
+    padding:0px, 15px, 10px, 15px;
+}
